@@ -1,0 +1,21 @@
+{
+  "name": "email_worker_parser",
+  "description": "FansubID Email~",
+  "version": "8.1.4.5",
+  "author": {
+    "name": "B. Bias A. Ch.",
+    "email": "bifeldy@gmail.com"
+  },
+  "homepage": "https://mail.fansub.id",
+  "devDependencies": {
+    "wrangler": "2.6.0"
+  },
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler publish"
+  },
+  "dependencies": {
+    "postal-mime": "^1.0.13"
+  }
+}

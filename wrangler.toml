@@ -1,0 +1,6 @@
+name = "email_worker_parser"
+main = "src/index.js"
+compatibility_date = "2022-12-05"
+
+[vars]
+API_KEY = "00000000-0000-0000-0000-000000000000"
